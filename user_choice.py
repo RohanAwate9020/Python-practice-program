@@ -11,7 +11,7 @@ while num1 < 5:
 
     match uchoice:
         case '1':
-            num = int(input("Enter a number: "))
+            num = int(input("Enter a number to find out wheather it is prime or not: "))
             if num > 1:
                 for i in range(2,num):
                     if (num % i) == 0:
